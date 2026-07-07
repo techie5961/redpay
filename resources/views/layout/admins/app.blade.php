@@ -28,6 +28,11 @@ background-size:
   40px 40px;
   padding:0; 
         }
+         @media(min-width:800px){
+        main{
+            padding:20px 10vw;
+        }
+       }
     </style>
     @yield('css')
 </head>

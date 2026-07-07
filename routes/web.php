@@ -6,6 +6,7 @@ use App\Http\Controllers\UsersPostRequestController;
 use App\Http\Middleware\UsersDashboardMiddleware;
 use App\Http\Controllers\AdminsDashboardController;
 use App\Http\Controllers\AdminsPostRequestController;
+use App\Http\Middleware\AdminsAuthMiddleware;
 use App\Http\Middleware\AdminsDashboardMiddleware;
 use App\Http\Middleware\UsersAuthMiddleware;
 
@@ -89,10 +90,12 @@ Route::post('post/withdraw/process',[
 });
 
 // admins (not authenticated)
-Route::get('admins/login',[
+Route::middleware([AdminsAuthMiddleware::class])->group(function(){
+    Route::get('admins/login',[
     AdminsDashboardController::class,'Login'
 ]);
 
+});
 // admins post (not authenticated)
 Route::post('admins/post/login/process',[
     AdminsPostRequestController::class,'Login'
