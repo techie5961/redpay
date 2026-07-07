@@ -95,7 +95,7 @@ if ($now->greaterThanOrEqualTo($nextClaimTime)) {
 
     // history
     public function History(){
-        $trx=DB::table('transactions')->where('user_id',Auth::guard('users')->user()->id)->limit(50)->get();
+        $trx=DB::table('transactions')->where('user_id',Auth::guard('users')->user()->id)->limit(50)->orderBy('date','desc')->get();
         $trx->transform(function($each){
     $each->frame=Carbon::parse($each->date)->diffForHumans();
     return $each;

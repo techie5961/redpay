@@ -9,9 +9,7 @@ use App\Http\Controllers\AdminsPostRequestController;
 use App\Http\Middleware\AdminsDashboardMiddleware;
 use App\Http\Middleware\UsersAuthMiddleware;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 // user (not authenticated)
 Route::middleware([UsersAuthMiddleware::class])->group(function(){
@@ -20,6 +18,9 @@ Route::get('register',[
 ]);
 // login
 Route::get('login',[
+    UsersDashboardController::class,'Login'
+]);
+Route::get('/',[
     UsersDashboardController::class,'Login'
 ]);
 });
