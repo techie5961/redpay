@@ -1,0 +1,47 @@
+Dear David James,
+
+Thank you for your order from us! Your hosting account has now been setup and this email contains all the information you will need in order to begin using your account.
+
+New Account Information
+
+Hosting Package: Aspire
+Domain: earnifyhub.top
+First Payment Amount: N840.00NGN
+Recurring Amount: N840.00NGN
+Billing Cycle: Monthly
+Next Due Date: Wednesday, August 5th, 2026
+
+Login Details
+
+Username: earnifyh
+Password: 3w-K6nWulK9*8R
+
+Control Panel URL: http://starlord.globaldnsnetwork.com:2083/
+
+Nameserver Information
+
+If you are using an existing domain with your new hosting account, you will need to update the nameservers to point to the nameservers listed below.
+
+Nameserver 1: dns1.globaldnsnetwork.com (163.61.188.106)
+Nameserver 2: dns2.globaldnsnetwork.com (163.61.188.106)
+
+If you have requested a domain name during sign up, please keep in mind that your domain name will not be visible on the internet instantly. This process is called propagation and can take up to 48 hours. Until your domain has propagated, your website and email will not function, we have provided a temporary url which you may use to view your website and upload files in the meantime.
+
+Email Settings
+
+For email accounts that you setup, you should use the following connection details in your email program:
+
+POP3 Host Address: mail.earnifyhub.top
+SMTP Host Address: mail.earnifyhub.top
+Username: The email address you are checking email for
+Password: As specified in your control panel
+
+Thank you for choosing us.
+
+Lyte Hosting LLC
+
+1942 BROADWAY STREET, BOULDER CO, US
+
+© All rights reserved by Lyte Hosting.
+
+Unsubscribe from our mailing list.
